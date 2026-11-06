@@ -108,3 +108,19 @@
 - 笔记主要用 [Obsidian](https://obsidian.md/) 编写，文内大量使用 Obsidian 双向链接（`[[笔记名]]` 语法）；用 Obsidian 打开本仓库根目录体验最佳。
 - 许可协议见 [LICENSE](LICENSE)（[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)）。
 - 文中示例 IP、项目名均为演示用途，请勿当作真实环境信息。
+
+## 如何同步
+
+公开内容由白名单 `publish.txt` 从私有笔记库同步而来。在本仓根目录执行：
+
+```bash
+./scripts/sync-from-private.sh
+```
+
+脚本会拷贝白名单文件、应用脱敏、跑敏感扫描；**不会**自动 commit/push。详见 [SYNC.md](SYNC.md)。
+
+仅扫描：
+
+```bash
+./scripts/scan-sensitive.sh
+```
