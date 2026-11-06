@@ -191,6 +191,22 @@ for p in root.rglob("*.md"):
     if t2 != t:
         write(p, t2)
 
+# Git series outline — public wording
+p = root / "Git/00-课程大纲.md"
+if p.exists():
+    t = read(p)
+    old = """## 相关公开笔记
+
+若已同步到公开仓 `tech-notes`，同步规则见该仓 `SYNC.md`；本系列属 `技术学习/Git/` 白名单候选，推公开前仍需脱敏扫描。
+"""
+    new = """## 相关说明
+
+本系列同步自个人笔记库的公开白名单；仓库维护方式见根目录 [SYNC.md](../SYNC.md)。
+"""
+    if old in t:
+        t = t.replace(old, new)
+        write(p, t)
+
 print("B scrubs applied")
 PY
 
