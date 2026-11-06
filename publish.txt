@@ -4,6 +4,18 @@ GIS/Geohash.md
 GIS/H3.md
 GIS/Zoom.md
 GIS/热力图.md
+Git/00-课程大纲.md
+Git/01-基础概念-工作区暂存区仓库.md
+Git/02-常用命令.md
+Git/03-分支与合并.md
+Git/04-rebase与merge对比.md
+Git/05-冲突处理.md
+Git/06-远程协作.md
+Git/07-stash.md
+Git/08-reflog与回退.md
+Git/09-tag.md
+Git/10-hooks概览.md
+Git/11-最佳实践与常见坑.md
 Git/Fork项目同步父项目更新.md
 Git/Git Submodule 使用指南.md
 Git/Git Worktree 使用指南.md

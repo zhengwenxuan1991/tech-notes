@@ -34,9 +34,22 @@
 
 ### Git/
 
+- [00-课程大纲.md](Git/00-%E8%AF%BE%E7%A8%8B%E5%A4%A7%E7%BA%B2.md)
+- [01-基础概念-工作区暂存区仓库.md](Git/01-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5-%E5%B7%A5%E4%BD%9C%E5%8C%BA%E6%9A%82%E5%AD%98%E5%8C%BA%E4%BB%93%E5%BA%93.md)
+- [02-常用命令.md](Git/02-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
+- [03-分支与合并.md](Git/03-%E5%88%86%E6%94%AF%E4%B8%8E%E5%90%88%E5%B9%B6.md)
+- [04-rebase与merge对比.md](Git/04-rebase%E4%B8%8Emerge%E5%AF%B9%E6%AF%94.md)
+- [05-冲突处理.md](Git/05-%E5%86%B2%E7%AA%81%E5%A4%84%E7%90%86.md)
+- [06-远程协作.md](Git/06-%E8%BF%9C%E7%A8%8B%E5%8D%8F%E4%BD%9C.md)
+- [07-stash.md](Git/07-stash.md)
+- [08-reflog与回退.md](Git/08-reflog%E4%B8%8E%E5%9B%9E%E9%80%80.md)
+- [09-tag.md](Git/09-tag.md)
+- [10-hooks概览.md](Git/10-hooks%E6%A6%82%E8%A7%88.md)
+- [11-最佳实践与常见坑.md](Git/11-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E4%B8%8E%E5%B8%B8%E8%A7%81%E5%9D%91.md)
 - [Fork项目同步父项目更新.md](Git/Fork%E9%A1%B9%E7%9B%AE%E5%90%8C%E6%AD%A5%E7%88%B6%E9%A1%B9%E7%9B%AE%E6%9B%B4%E6%96%B0.md)
 - [Git Submodule 使用指南.md](Git/Git%20Submodule%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
 - [Git Worktree 使用指南.md](Git/Git%20Worktree%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.md)
+
 
 ### Java/
 

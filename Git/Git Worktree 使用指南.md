@@ -13,6 +13,8 @@ status: active
 
 # Git Worktree 使用指南
 
+> 系统学习入口：[Git 系统学习 · 课程大纲](00-课程大纲.md)
+
 > [!abstract] 一句话说明
 > Git Worktree 允许同一个 Git 仓库同时拥有多个独立工作目录。每个目录可以检出不同分支，适合并行开发、紧急修复、代码审查和多 Agent 协作。
 
