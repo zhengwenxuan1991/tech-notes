@@ -233,7 +233,7 @@ Java 语境：看是 Gateway/Nginx 超时，还是 Tomcat/Netty 里 `ExceptionHa
 - 私有数据谨慎用共享缓存；`Cache-Control: private` 等与状态码配合。
 - 强 ETag / 弱 ETag（`W/"..."`）语义不同，改字节级内容时勿随便标强 ETag。
 
-与传输安全相关的 TLS/HTTPS 部署，见同库 [TLS知识梳理](安全/TLS知识梳理.md)。
+与传输安全相关的 TLS/HTTPS 部署，见同库 [TLS知识梳理](../安全/TLS知识梳理.md)。
 
 ## 5. 排查清单
 
